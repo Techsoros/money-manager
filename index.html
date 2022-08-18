@@ -19,11 +19,14 @@
 
 <body>
     <div class="container mt-150">
+        <h2 class="text-center mb-3 heading-text d-block d-lg-none"> <i class="fa-solid fa-wallet"></i> Wallet
+            manager
+        </h2>
 
-
-        <div class="row  mt-5 ">
-            <div class="col text-center  d-flex flex-column justify-content-between">
-                <h2 class="text-center mb-3 heading-text"> <i class="fa-solid fa-wallet"></i> Wallet manager
+        <div class="row  mt-5 row-cols-1 row-cols-lg-2 gy-5">
+            <div class="col  text-center  d-flex flex-column justify-content-between order-2 order-lg-1 ">
+                <h2 class="text-center mb-3 heading-text d-none d-lg-block"> <i class="fa-solid fa-wallet"></i> Wallet
+                    manager
                 </h2>
 
                 <img src="img/wallet.png" alt="" class="w-25 d-block mx-auto">
@@ -37,24 +40,28 @@
 
                 </div>
             </div>
-            <div class="col main-box ">
-                <h2 class="mb-5">Log in here</h2>
+            <div class="col  order-1 order-lg-2">
+                <div class="main-box p-3 p-md-5">
+                    <h2 class="mb-2 mb-md-5">User Login</h2>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="user-name" placeholder="Enter email here">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control " id="user-name" placeholder="Enter email here">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control " id="user-password"
+                            placeholder="Insert your Password">
+
+                    </div>
+
+                    <button id="login-button" class="btn btn-primary">Login Now </button>
+
 
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="user-password" placeholder="Insert your Password">
-
-                </div>
-
-                <button id="login-button" class="btn btn-primary">Login Now </button>
-
-
             </div>
+
         </div>
 
     </div>

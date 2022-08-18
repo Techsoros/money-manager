@@ -22,57 +22,61 @@
         <h2 class="text-center mb-3 heading-text"> <i class="fa-solid fa-wallet"></i> Wallet manager
         </h2>
 
-        <div class="row gy-5 mt-3 ">
-            <div class="col text-center ">
-                <div class=" bg-green p-3 rounded text-light">
-                    <h3>Deposit</h3>
-                    <h4><span id="d-value">00</span> BDT</h4>
+        <div class=" card-wrap row">
+
+            <div class="row row-cols-1 row-cols-md-3 gy-5 mt-3 ">
+                <div class="col text-center ">
+                    <div class=" bg-green p-3 rounded text-light">
+                        <h3>Deposit</h3>
+                        <h4><span id="d-value">00</span> BDT</h4>
+                    </div>
+
+                </div>
+                <div class="col text-center ">
+                    <div class=" bg-red p-3 rounded text-light">
+                        <h3>Withdraw</h3>
+                        <h4><span id="w-value">00</span> BDT</h4>
+                    </div>
+
+                </div>
+                <div class="col text-center ">
+                    <div class=" bg-yellow p-3 rounded text-light">
+                        <h3>Current Wallet</h3>
+                        <h4><span id="t-value">1340</span> BDT</h4>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 gx-5 gy-3 mt-5 ">
+                <div class="col">
+                    <div class="bg-gray p-3 rounded ">
+                        <h3>Diposit Money</h3>
+                        <input type="text" class="form-control w-75 mt-4" id="deposit-value"
+                            placeholder="Enter amount you want to Deposit">
+
+                        <button class="btn btn-warning mt-3" id="deposit-btn">Deposit</button>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class=" bg-gray p-3 rounded ">
+                        <h3>Withdraw Money</h3>
+                        <input type="text" class="form-control w-75 mt-4" id="withdraw-value"
+                            placeholder="Enter amount you want to withdraw">
+
+                        <button class="btn btn-success mt-3" id="withdraw-btn">Withdraw</button>
+
+                    </div>
+
                 </div>
 
             </div>
-            <div class="col text-center ">
-                <div class=" bg-red p-3 rounded text-light">
-                    <h3>Withdraw</h3>
-                    <h4><span id="w-value">00</span> BDT</h4>
-                </div>
-
-            </div>
-            <div class="col text-center ">
-                <div class=" bg-yellow p-3 rounded text-light">
-                    <h3>Current Wallet</h3>
-                    <h4><span id="t-value">1340</span> BDT</h4>
-                </div>
-
-            </div>
-
-
         </div>
 
-        <div class="row  gx-5 mt-5">
-            <div class="col">
-                <div class="bg-gray p-3 rounded ">
-                    <h3>Diposit Money</h3>
-                    <input type="text" class="form-control w-75 mt-4" id="deposit-value"
-                        placeholder="Enter amount you want to Deposit">
-
-                    <button class="btn btn-warning mt-3" id="deposit-btn">Deposit</button>
-
-                </div>
-
-            </div>
-            <div class="col">
-                <div class=" bg-gray p-3 rounded ">
-                    <h3>Withdraw Money</h3>
-                    <input type="text" class="form-control w-75 mt-4" id="withdraw-value"
-                        placeholder="Enter amount you want to withdraw">
-
-                    <button class="btn btn-success mt-3" id="withdraw-btn">Withdraw</button>
-
-                </div>
-
-            </div>
-
-        </div>
 
 
 
